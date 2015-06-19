@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "name": "Presentation",
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "gulp-eslint": "*",
+        "gulp-watch": "*",
+        "gulp-notify": "*",
+        "node-notifier": "*",
+        "gulp-less": "*",
+        "karma": "*",
+        "karma-phantomjs-launcher": "*",
+        "gulp-karma": "*",
+        "karma-mocha": "*"
+    },
+    "eslintConfig": {
+        "rules": {
+            "no-unused-vars": [2, {"vars": "local", "args": "after-used"}]
+        }
+    }
+}
