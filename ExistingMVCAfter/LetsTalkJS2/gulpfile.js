@@ -1,4 +1,5 @@
-﻿var gulp = require("gulp"),
+/// <vs SolutionOpened='watch' />
+var gulp = require("gulp"),
   watch = require("gulp-watch"),
   less = require("gulp-less"),
   notify = require("gulp-notify"),
